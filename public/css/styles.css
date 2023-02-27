@@ -1,0 +1,182 @@
+* {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+#navbar {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 0.7em;
+    background-color: #ccc;
+
+
+
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin-left: 1000px;
+    margin-top: 5px;
+
+}
+
+#navbar ul li {
+    margin-left: 1em;
+
+}
+
+
+
+h2 {
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.form {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: .3rem;
+}
+
+.form-checkbox {
+    flex-direction: row;
+}
+
+.form-checkbox input {
+    margin-right: 10px;
+}
+
+.form-control input {
+    padding: 5px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.container .item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1 1 29%;
+    max-width: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item h2,
+.item p {
+    margin-bottom: 0.8em;
+
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions a,
+.actions input {
+    border: 1px solid #BBB;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 5px;
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+}
+
+.actions .detail-btn {
+    border-color: #004085;
+    color: #004085;
+
+}
+
+.actions .delete-btn {
+    border-color: #721c24;
+    color: #721c24;
+}
+
+.address-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 1em auto;
+    margin-top: 50px;
+    padding-top: 1em;
+    border-top: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.address-container h2 {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.address-container form {
+    width: 450px;
+    margin-left: 30px;
+    margin-top: -50px;
+    
+}
+
+.address-list {
+    margin-top: 5em;
+    padding-top: 1em;
+    padding-bottom: 200px;
+    border-top: 1px solid #ccc;
+   
+}
+
+.address-list div {
+    display: flex;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    padding-top: 1.5em;
+    border-bottom: 1px solid #ddd;
+}
+
+.address-list h2 {
+    margin-left: 50px;
+    margin-top: -15px;
+    margin-bottom: 40px;
+}
+
+.address-list p {
+    width: 450px;
+    margin-left: 400px;
+    margin-top: -20px;
+
+}
+
+.address-list form {
+   margin-left: -110px;
+   margin-top: -22px;
+
+}
